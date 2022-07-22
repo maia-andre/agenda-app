@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Agenda News</string>
+    <string name="title_agendar">Agendar</string>
+    <string name="title_lista_agenda">Agendamentos</string>
+    <string name="title_usuario">Usuário</string>
+</resources>
