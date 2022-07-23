@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_motorista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/veiculo"
+            android:layout_margin="@dimen/default_margin"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/cd_ft_motorista" />
+
+        <TextView
+            android:id="@+id/veiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            app:layout_constraintStart_toStartOf="@id/img_motorista"
+            app:layout_constraintTop_toBottomOf="@id/img_motorista"
+            app:layout_constraintEnd_toEndOf="@id/img_motorista"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="DPR-5J09" />
+
+        <TextView
+            android:id="@+id/nomeMotorista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_motorista"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Nome do Motorista:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/Motorista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/nomeMotorista"
+            app:layout_constraintStart_toEndOf="@id/img_motorista"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Anderson"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <EditText
+            android:id="@+id/dataAgendamento"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:ems="10"
+            android:inputType="date"
+            tools:text="10/04/2022"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <TextView
+            android:id="@+id/nomePassageiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/Motorista"
+            app:layout_constraintStart_toEndOf="@id/img_motorista"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Passageiro(s):"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/Passageiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/nomePassageiro"
+            app:layout_constraintStart_toEndOf="@id/img_motorista"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Patrícia, Antônia, Cláudia, Mônica"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/Destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/Passageiro"
+            app:layout_constraintStart_toEndOf="@id/img_motorista"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Destino:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/descDestino"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/Passageiro"
+            app:layout_constraintStart_toEndOf="@id/Destino"
+            android:layout_margin="@dimen/default_margin"
+            tools:text="Visita nas unidades escolares EM Luiza Helena e EM Barequeçaba"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -3,4 +3,6 @@
     <string name="title_agendar">Agendar</string>
     <string name="title_lista_agenda">Agendamentos</string>
     <string name="title_usuario">Usuário</string>
+    <string name="nome_do_motorista">Nome do motorista</string>
+    <string name="cd_ft_motorista">foto do motorista</string>
 </resources>

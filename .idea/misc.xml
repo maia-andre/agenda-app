@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/agenda_item.xml" value="0.32456140350877194" />
+        <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/fragment_agendamento.xml" value="0.25" />
+        <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/fragment_agendar.xml" value="0.17074275362318841" />
         <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
         <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/fragment_lista_agenda.xml" value="0.17074275362318841" />
         <entry key="..\:/Projects/AgendaNews/app/src/main/res/layout/fragment_usuario.xml" value="0.17074275362318841" />
