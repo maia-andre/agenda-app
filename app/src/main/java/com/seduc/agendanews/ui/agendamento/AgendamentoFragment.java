@@ -24,8 +24,9 @@ public class AgendamentoFragment extends Fragment {
         binding = FragmentAgendamentoBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textAgendamento;
-        agendamentoViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        agendamentoViewModel.getAgendamentos().observe(getViewLifecycleOwner(), agendamentos -> {
+
+        });
         return root;
     }
 
